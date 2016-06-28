@@ -1,0 +1,54 @@
+body {
+    font-size: 12px;
+}
+
+.eel-01 img{
+    height: 744px;
+    width: 1920px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.detail-box {
+    height: 230px;
+    width: 1920px;
+    background-color: lightgray;
+}
+
+.detail-block{
+    height: 230px;
+    width: 910px;
+    margin: auto;
+}
+
+.detail {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.introduction-box img {
+    height: 780px;
+    width: 1920px;
+    background-color: yellow;
+    margin: auto;
+}
+
+.intro {      
+    width: 450px;
+    margin-top: -460px;
+    margin-left: 760px;
+    text-align: center;
+}
+
+.video-box {
+    margin: auto;
+    text-align: center;
+    height: 747px;
+    width: 1920px;
+    background-color: #0b0b0c;
+    overflow: hidden;
+}
