@@ -1,0 +1,39 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	clear: both;
+}
+.navbar{
+	margin-top: 20px;
+}
+
+.navbar-right{
+	a{
+		font-weight: 200;
+	}
+}
+
+.header_wrapper{
+	position: relative;
+	padding: 5em 0em 7em 0em;
+	background-image:url(../img/penguin_bg01.JPG);
+	background-repeat: no-repeat;
+ 	background-size: cover; 
+	height:560px;
+	padding-top: 20em;
+	text-align: center;
+
+}
+
+.title h1{
+	color:#fff;
+
+}
+
+iframe {
+	position:relative;
+	padding-top:10em;
+	padding:center;
+	margin:auto;
+}
