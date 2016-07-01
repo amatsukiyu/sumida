@@ -5,6 +5,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	clear: both;
+	width: 100%;
 }
 .navbar{
 	margin-top: 20px;
@@ -17,51 +18,83 @@ body {
 }
 
 .section1{
-	margin: 0;
-	padding: 0;
-	position: relative;
-	top:-600px;
+	width: 100%;
 	overflow: hidden;
 	text-align: center;
-	z-index: 2;
-	h1{
-		margin: 0;
-		padding: 0;
-		z-index: 2;
-		position: relative;
-		top:-400px;
-	}
+	position: relative;
 	img{
-		margin: 0;
-		padding: 0;
-		z-index: 1;
+		width:1920px;
+	}
+	h1{
+		position: absolute;
+		left: 520px;
+		top: 280px;
+		opacity: 0.9;
 	}
 }
 
 .section2{
-	overflow: hidden;
+	overflow:hidden;
 	position: relative;
-	top:-920px;
-	z-index: -1;
+	img{
+		width: auto;
+  		height : auto;
+  		max-height: 100%;
+  		max-width: 100%;
+	}
 	h2{
-		top: 300px;
-		z-index: 5;
-		background: black;
+		position: absolute;
+		left: 720px;
+		top: 280px;
+		opacity: 0.9;
+		color: #eee;
+	}
+	button{
+		position: absolute;
+		left: 980px;
+		top: 390px;
+		width: 150px;
+		height: 35px;
+		background-color: rgba(0,0,0,0);
+		border-width:1px;
+		border-color: white;
+	}
+}
+.section3{
+	overflow:hidden;
+	position: relative;
+	img{
+		width: auto;
+  		height : auto;
+  		max-height: 100%;
+  		max-width: 100%;
+	}
+	h2{
+		position: absolute;
+		left: 520px;
+		top: 350px;
+		opacity: 0.9;
+		color: #eee;
+	}
+	button{
+		position: absolute;
+		left: 710px;
+		top: 460px;
+		width: 150px;
+		height: 35px;
+		background-color: rgba(0,0,0,0);
+		border-width:1px;
+		border-color: white;
 	}
 }
 
-.section3{
-	position: relative;
-	overflow: hidden;
-	top:-920px;
-}
 
-h1 {
-	color: #eeeeee;
+h1, h2 {
+	color: #ddd;
 	font-family: 'Open Sans';
 	font-kerning: 10px;
 	font-weight: bold;
-  font-size: 4em; /* 40px/16=2.5em */
+  	font-size: 4em; /* 40px/16=2.5em */
 	letter-spacing: 8px;
 	line-height: 70px;
 
