@@ -4,6 +4,7 @@ body {
 	font-family: 'Open Sans';
     font-size: 12px;
 	letter-spacing: 8px;
+    background: #0b0b0c;
 }
 
 .official {
@@ -24,12 +25,11 @@ body {
     height: 250px;
     width: 200px;
     margin-top: -320px;
-
     font-size: 21px;
     color: white;
 }
 .detail-box {
-    height: 630px;
+    height: 430px;
     width: 1920px;
     background-color: white;
     margin-top: 100px;
@@ -38,16 +38,14 @@ body {
 
 .detail-block {
     color: #191919;
-  
     margin: auto;
     margin-top: -100px;
     width: 1000px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .detail {
-    display: inline-block;
-    
+    display: inline-block; 
     width: 200px;
     text-align: center;
     margin-left: 50px;
@@ -74,25 +72,82 @@ body {
 }
 
 .introduction-box img {
-    height: 780px;
+    height: 5780px;
     width: 1920px;
-    background-color: yellow;
     margin: auto;
- 
 }
 
-.intro {      
-    width: 450px;
-    margin-top: -460px;
-    margin-left: 760px;
+.introduction {
+    color: white;
     text-align: center;
+    font-size: 14px;
 }
 
-.video-box {
+.content-box {
+    background: yellow;
+    margin-top: -440px;
+    margin-left: 530px;
+    width: 850px;
+}
+
+.introduction-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.introduction-text {
+    letter-spacing: 3px;
+}
+
+.video {
     margin: auto;
+    padding-top: 80px;
     text-align: center;
-    height: 747px;
+    height: 1800px;
     width: 1920px;
     background-color: #0b0b0c;
+    margin-top: 489px;
+}
+
+.youtube {
+    margin-top: 50px;
+}
+
+.picture-collection {
+    width: 1280px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 320px;
     overflow: hidden;
+}
+
+.picture-collection img {
+    width: 250px;
+    height: 250px;
+}
+
+.pic1 img{
+ 
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: -190px;
+}
+
+.pic2 img{
+    
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.pic3 img{
+    
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.pic4 img{
+   
+    display: inline-block;
+    margin-right: -190px;
 }
