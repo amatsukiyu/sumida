@@ -8,32 +8,158 @@ body {
 	margin-top: 20px;
 }
 
-.navbar-right{
-	a{
-		font-weight: 200;
-	}
-}
 
-.header_wrapper{
-	position: relative;
-	padding: 5em 0em 7em 0em;
-	background-image:url(../img/penguin_bg01.JPG);
-	background-repeat: no-repeat;
- 	background-size: cover; 
-	height:560px;
-	padding-top: 20em;
+h1 .title{
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-kerning: 10px;
+	font-weight: bold;
+ 	font-size: 4em;
+	letter-spacing: 8px;
+	line-height: 96px;
 	text-align: center;
 
 }
 
-.title h1{
-	color:#fff;
-
-}
 
 iframe {
 	position:relative;
-	padding-top:10em;
-	padding:center;
-	margin:auto;
+	padding-top:3em;
 }
+
+
+.hero, .parallax {
+  background-color: #555;
+  background-attachment: fixed;
+  background-size: 100%;
+  
+}
+
+.hero .overlay, .parallax .overlay {
+  position: absolute;
+  top: 180px;
+  left: 144px;
+  right: 0;
+  bottom: 0;
+  
+}
+.hero p{
+	color: #ffffff;
+}
+
+
+body {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #777777;
+  color: #7f7f7f;
+  background: #fff;
+  height: 100%;
+  position: relative;
+	margin: 0;
+}
+h1 {
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-kerning: 10px;
+	font-weight: bold;
+  font-size: 4em; /* 40px/16=2.5em */
+	letter-spacing: 8px;
+	line-height: 96px;
+	text-align: left;
+
+}
+h2{
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-kerning: 10px;
+	font-weight: bold;
+  font-size: 2em; /* 40px/16=2.5em */
+	letter-spacing: 2px;
+	line-height: 64px;
+	text-align: left;
+}
+h3{
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-kerning: 10px;
+	font-weight: bold;
+  font-size: 1.2em; /* 40px/16=2.5em */
+	letter-spacing: 2px;
+	line-height: 64px;
+	text-align: left;
+}
+p{
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-weight: 0;
+  font-size: 14px; /* 40px/16=2.5em */
+	line-height: 28px;
+	text-align: left;
+}
+.table,
+.table-cell,
+.hero,
+.parallax {
+  height: 1800px;
+}
+.wrap{
+	position: relative;
+  background: #ccc;
+  z-index: 2;
+  margin-bottom: 450px;
+}
+.hero, .parallax {
+  background-color: #555;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.hero .overlay, .parallax .overlay {
+  position: absolute;
+  top: 180px;
+  left: 144px;
+  right: 0;
+  bottom: 0;
+  
+}
+.hero p{
+	color: #ffffff;
+}
+
+.overlay .container{
+	margin-bottom: 300px;
+}
+.video{
+	position: relative;
+	top: -160px;
+}
+.section{
+	margin-bottom: 80px;
+}
+.section .col-md-5{
+	margin-top: 100px;
+	p{
+		color: #424242;
+	}
+}
+.film {
+	
+		z-index: 1000px;
+	  text-align: right;
+		float: right;
+		clear: both;
+	
+}
+.jelly1{
+	position: relative;
+	top: -80px;
+	left: 160px;
+}
+.aqua{
+	text-align: right;
+}
+
+
